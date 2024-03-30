@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   cursor.rotateCursor()
 
 
+
   setInterval(() => {
     const step = move.randomStep(4, 4);
     newImage.createImage(step.width, step.height);

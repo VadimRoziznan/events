@@ -9,9 +9,9 @@ export default class CustomСursor {
   rotateCursor() {
     this.element.addEventListener('mousedown', event => {
       this.element.style.cursor = 'url("../images/hammer_down.png"), auto';
-      /*if (event.target.tagName === 'IMG') {
-        console.log(event.target)
-      }*/
+      if (event.target.tagName === 'IMG') {
+        this.mouseEvent();
+      }
     });
     
     this.element.addEventListener('mouseup', event => {
