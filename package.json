@@ -1,7 +1,7 @@
 {
-  "name": "dom",
+  "name": "event",
   "version": "1.0.0",
-  "description": "Правила сдачи задания:",
+  "description": "Jumper",
   "main": "index.js",
   "scripts": {
     "start": "webpack serve --mode development",
