@@ -1,0 +1,1 @@
+import Field from"./Field";import Moving from"./Moving";import AddImage from"./AddImage";document.addEventListener("DOMContentLoaded",(function(){new Field(document.querySelector(".field"),4,4).fieldGenerator();var e=new AddImage(document.querySelector(".field")),d=new Moving;setInterval((function(){var t=d.randomStep(4,4);e.createImage(t.width,t.height)}),5e4)}));
