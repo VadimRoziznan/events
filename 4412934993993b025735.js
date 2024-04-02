@@ -1,1 +1,0 @@
-import Field from"./Field";document.addEventListener("DOMContentLoaded",(function(){new Field(document.querySelector(".field"),4,4).fieldGenerator()}));
