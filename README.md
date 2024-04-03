@@ -1,5 +1,7 @@
 ![CI](https://github.com/VadimRoziznan/events/actions/workflows/web.yml/badge.svg)
 
+![Старт]https://vadimroziznan.github.io/events/
+
 # Домашнее задание к занятию "3.Обработка событий"
 
 Правила сдачи задания:
